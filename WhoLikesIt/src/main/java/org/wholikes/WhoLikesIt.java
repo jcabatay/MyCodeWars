@@ -1,6 +1,6 @@
 package org.wholikes;
 
-class WhoLikesIt {
+public class WhoLikesIt {
     public static String listlikes(String... names){
         int pos = names.length;
         String message;
@@ -13,7 +13,7 @@ class WhoLikesIt {
             break;
             case 3: message = names[0] + ", " + names[1] + " and " + names[2] + " like this";
             break;
-            default: return names[0] + ", " + names[1] + " and " + namesSize(names) + "  others like this";
+            default: return names[0] + ", " + names[1] + " and " + namesSize(names) + " others like this";
         }
         return message;
     }
